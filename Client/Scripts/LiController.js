@@ -5,9 +5,8 @@ var LiController = function($scope,$http){
         .success(function (params) {
             $scope.movies=params;
         })
- $scope.message="HH,M";
+ $scope.message="HelloH,M";
 };
-
 
 app.controller("LiController",LiController);
 
