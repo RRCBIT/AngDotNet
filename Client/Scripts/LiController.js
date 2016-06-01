@@ -1,7 +1,7 @@
 (function(app) {
 //var app=angular.module("AtTheMovies");
 var LiController = function($scope){
- $scope.message="H,M";
+ $scope.message="HH,M";
 };
 
 
