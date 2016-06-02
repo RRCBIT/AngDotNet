@@ -2,8 +2,8 @@
 //var app=angular.module("AtTheMovies");
 var LiController = function($scope,$http){
     $http.get("api/movies")
-        .success(function (params) {
-            $scope.movies=params;
+        .success(function (data) {
+            $scope.movies=data;
         })
  $scope.message="HelloH,M";
 };
