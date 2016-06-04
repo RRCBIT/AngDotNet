@@ -4,7 +4,13 @@
   <div>
         a-  {{movies.length}}-b
       </div>
-      <div ng-repeat="movie in movies">
-        {{movie.title}}
-      </div>
+      <table>
+      <tr ng-repeat="movie in movies">
+      <td>  {{movie.title}}</td>
+                     <td>
+                    <button class="btn" ng-click="delete(movie)">Delete</button>
+                    
+                    <a href="#/details/{{movie.id}}" class="btn">Details</a> 
+                </td>
+      </tr></table>
     </div>
